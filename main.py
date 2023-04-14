@@ -1,12 +1,6 @@
-from property_scraper import Property_Scraper
+from propertyscraper import PropertyScraper
 
-property_scraper = Property_Scraper()
+property_scraper = PropertyScraper()
 property_scraper.get_zillow_data()
-
-
-
-
-
-
 
 print("hi from Zillow Data Automation")
